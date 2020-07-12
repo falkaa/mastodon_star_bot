@@ -51,5 +51,6 @@
 2. Linux、macOS 平台报错
    1. 参考抛出的错误消息，偶尔程序请求接口失败后，会直接推出程序，暂时还不知道 Golang 如何在程序中忽略这种错误，来让程序继续执行。
    2. 同上，如果实例被墙的话，那么需要配置下使命令行走代理，参考[文章](https://zhuanlan.zhihu.com/p/46973701)
+3. 程序出错退出后，需要手动重新执行。（P.S. 你也考虑使用[pm2](https://pm2.keymetrics.io/)这种工具来管理你的程序，这样它将会自动重启。）
    
 P.S. 不是上面的问题？那么，请到[issues](https://github.com/falkaa/mastodon_star_bot/issues)反馈，或者直接来长毛象找我[@meina](https://mastodon.social/web/accounts/849118)
