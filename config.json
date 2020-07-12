@@ -1,7 +1,7 @@
 {
-    "token": "xxxxxxxxxxxxxxxxxxxsxxxx",
+    "token": "Bearer token..............",
     "starURL": "https://mastodon.social/api/v1/statuses/",
-    "homeURL": "https://mastodon.social/api/v1/statuses/",
+    "homeURL": "https://mastodon.social/api/v1/timelines/home",
     "users": ["meina", "RicardoAlter"],
     "interval": 60
 }
