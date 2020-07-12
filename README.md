@@ -42,3 +42,14 @@
 
    1. Windows 平台双击来运行。
    2. Linux/macOS 平台在终端（Terminal）`cd`到该目录后，通过`./starbot-osx`或者`./starbot-linux`运行。
+
+#### 常见问题
+
+1. Windows 平台下直接闪退
+   1. 请检查是否在同目录下创建`config.json`的配置文件，并且配置文件是否有问题（参考示例配置文件）
+   2. 如果你所谓实例被墙的话...那么你需要想办法让这个程序走VPN（后面有可能推出设置代理功能哦～猴年马月了...）
+2. Linux、macOS 平台报错
+   1. 参考抛出的错误消息，偶尔程序请求接口失败后，会直接推出程序，暂时还不知道 Golang 如何在程序中忽略这种错误，来让程序继续执行。
+   2. 同上，如果实例被墙的话，那么需要配置下使命令行走代理，参考[文章](https://zhuanlan.zhihu.com/p/46973701)
+   
+P.S. 不是上面的问题？那么，请到[issues](https://github.com/falkaa/mastodon_star_bot/issues)反馈，或者直接来长毛象找我[@meina](https://mastodon.social/web/accounts/849118)
