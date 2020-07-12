@@ -1,0 +1,7 @@
+{
+    "token": "xxxxxxxxxxxxxxxxxxxsxxxx",
+    "starURL": "https://mastodon.social/api/v1/statuses/",
+    "homeURL": "https://mastodon.social/api/v1/statuses/",
+    "users": ["meina", "RicardoAlter"],
+    "interval": 60
+}
