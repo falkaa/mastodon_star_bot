@@ -3,6 +3,11 @@
 可以自动给主页嘟嘟点赞。
 
 
+#### 关注作者
+
+[@meina](https://mastodon.social/web/accounts/849118)
+
+
 
 #### 灵感
 
@@ -22,9 +27,9 @@
 
 #### 如何使用
 
-1. 在[release]()下载对应平台的可执行文件。
+1. 在[release](https://github.com/falkaa/mastodon_star_bot/releases)下载对应平台的可执行文件。
 
-2. 在同目录下创建配置文件`config.json`并进行自定义配置。配置文件示例参考[这个]()。
+2. 在同目录下创建配置文件`config.json`并进行自定义配置。配置文件示例参考[这个](https://github.com/falkaa/mastodon_star_bot/blob/master/config.json)。
 
 3. > 配置文件说明：
    >
